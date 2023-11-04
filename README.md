@@ -31,4 +31,8 @@ Thank you for taking time and having interest in my projects thus far! It has be
 
 ## Screenshot of launched page
 
+![screencapture-zjw1239-github-io-javascript-quiz-2023-11-04-17_32_46](https://github.com/zjw1239/javascript-quiz/assets/145623592/3c730dd5-a1f8-4e18-b2a6-d9a1857f2514)
+
 ## Link to launched site
+
+https://zjw1239.github.io/javascript-quiz/
