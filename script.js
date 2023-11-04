@@ -77,7 +77,7 @@ function showQuestion() {
         var nextButton = document.createElement("button");
         nextButton.setAttribute("class", "choice");
         nextButton.setAttribute("value", choice);
-        nextButton.textContent = '${i + 1}. ${choice}';
+        nextButton.textContent = `${i + 1}. ${choice}`;
         nextButton.onclick = questionChoiceClick;
         choicesEl.appendChild(nextButton);
     });

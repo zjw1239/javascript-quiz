@@ -6,15 +6,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JavaScript/ Web API quiz!</title>
   <link rel="stylesheet" href="./assets/reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
-  <h1> Welcome to the JavaScript and Web API quiz!</h1>
-    <h2 id="time"></h2>
-  <div id="question-box"></div>
-    <button id="strt-btn" class="btn">Start</button>
-    <button id="rst-btn" class="btn">Reset</button>
+  <div class="scores"><a href="scores.html">Show High Scores</a></div>
+  <div class="timer">Time -<span id="time">0</span></div>
+  <div class="box">
+    <div id="start-screen" class="start">
+      <h1>JavaScript Quiz!</h1>
+      <p>Answer the questions within the time alloted. An incorrect answer will decrease your time as well as effect your final score. Good Luck!</p>
+      <button id="start">Start Quiz</button>
+    </div>
+
+    <div id="questions" class="hide">
+      <h2 id="question-title"></h2>
+      <div id="choices" class="choices"></div>
+    </div>
+
+    <div id="finish-screen" class="hide">
+    <h2>Finished!</h2>
+    <p>Final score:<span id="results"></span></p>
+    <p>Enter initials: <input type="text" id="initials" max="3" />
+      <button id="submit">Submit</button>
+    </p></div>
+
+    <div id="q-results" class="feedback-hide"></div>
+  </div>
+
   <script src= "script.js"></script>
 </body>
 </html>
